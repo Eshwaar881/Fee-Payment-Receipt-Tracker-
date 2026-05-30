@@ -1,0 +1,27 @@
+{
+  "name": "fee-payment-receipt-tracker",
+  "version": "1.0.0",
+  "description": "School Fee Payment & Receipt Tracker — tracks admission, tuition, hostel, transport, and exam fees with receipt generation",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .jsx,.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.0",
+    "lucide-react": "^0.383.0",
+    "date-fns": "^3.3.1",
+    "recharts": "^2.12.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.1.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.0"
+  }
+}
